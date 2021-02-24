@@ -5,7 +5,7 @@
 
 // 默认这个cards是数组
 
-let shuffle = (cards) => {
+const shuffle = (cards) => {
     let len = cards.length, randomIndex
     for (let i = len - 1; i >= 0; i--) {
         randomIndex = Math.floor(i * Math.random())
