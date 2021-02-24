@@ -1,0 +1,1 @@
+const sleep = (timer) => new Promise((resolve, reject) => setTimeout(resolve, timer))
